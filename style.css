@@ -1,0 +1,49 @@
+
+.gradient-background {
+    background: linear-gradient(300deg, #B2FFFF, #ACE1AF, #ACE1AF);
+    background-size: 180% 180%;
+    animation: gradient-animation 18s ease infinite;
+  }
+  
+  @keyframes gradient-animation {
+    0% {
+      background-position: 0% 50%;
+    }
+    50% {
+      background-position: 100% 50%;
+    }
+    100% {
+      background-position: 0% 50%;
+    }
+  }
+
+
+.carousel-img{
+    height: 500px;
+    border-radius: 40%;
+}
+
+.main-title{
+    font-size: 2.5rem;
+    font-family: serif;
+}
+
+.main-page{
+  padding-bottom: 800px;
+  margin-bottom: 800px;
+}
+
+.roster{
+  margin-top: 100px;
+}
+
+.roster-pic{
+  border-radius: 50%;
+}
+
+.album{
+  padding-top: 800px;
+}
+
+
+
